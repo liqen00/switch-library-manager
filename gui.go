@@ -119,6 +119,8 @@ func (g *GUI) Start() {
 				Center:          astikit.BoolPtr(true),
 				Height:          astikit.IntPtr(600),
 				Width:           astikit.IntPtr(1200),
+				WebPreferences:	 &astilectron.WebPreferences{EnableRemoteModule: astikit.BoolPtr(true)},
+				
 			},
 		}},
 		MenuOptions: []*astilectron.MenuItemOptions{
