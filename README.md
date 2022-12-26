@@ -98,11 +98,13 @@ Please set debug mode to 'true', and attach the slm.log to allow for quicker res
 ## Building
 - Install and setup Go
 - Clone the repo: `git clone https://github.com/liqen00/switch-library-manager.git`
+- `cd switch-library-manager`
 - Get the bundler `go get -u github.com/asticode/go-astilectron-bundler/...`
 - Install bundler `go install github.com/asticode/go-astilectron-bundler/astilectron-bundler`
-- Copy bundler binary to the source folder `cd switch-library-manager` and then `mv $HOME/go/bin/astilectron-bundler .`
+- Copy bundler binary to the source folder and then `mv $HOME/go/bin/astilectron-bundler .`
 - Execute `./astilectron-bundler`
 - Binaries will be available under output
 
 #### Thanks
 This program relies on [blawar's titledb](https://github.com/blawar/titledb), to get the latest titles and versions.
+
