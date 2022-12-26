@@ -2,8 +2,8 @@ package process
 
 import (
 	"fmt"
-	"github.com/giwty/switch-library-manager/db"
-	"github.com/giwty/switch-library-manager/switchfs"
+	"github.com/liqen00/switch-library-manager/db"
+	"github.com/liqen00/switch-library-manager/switchfs"
 	"go.uber.org/zap"
 	"sort"
 	"strconv"

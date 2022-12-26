@@ -3,9 +3,9 @@ package main
 import (
 	"flag"
 	"fmt"
-	"github.com/giwty/switch-library-manager/db"
-	"github.com/giwty/switch-library-manager/process"
-	"github.com/giwty/switch-library-manager/settings"
+	"github.com/liqen00/switch-library-manager/db"
+	"github.com/liqen00/switch-library-manager/process"
+	"github.com/liqen00/switch-library-manager/settings"
 	"github.com/jedib0t/go-pretty/table"
 	"github.com/schollz/progressbar/v3"
 	"go.uber.org/zap"

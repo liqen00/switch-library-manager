@@ -5,7 +5,7 @@ import (
 	"encoding/gob"
 	"fmt"
 	"github.com/boltdb/bolt"
-	"github.com/giwty/switch-library-manager/settings"
+	"github.com/liqen00/switch-library-manager/settings"
 	"go.uber.org/zap"
 	"log"
 	"path/filepath"

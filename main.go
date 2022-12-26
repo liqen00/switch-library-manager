@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/giwty/switch-library-manager/settings"
+	"github.com/liqen00/switch-library-manager/settings"
 	"go.uber.org/zap"
 	"net/url"
 	"os"

@@ -1,11 +1,11 @@
 # Switch library manager
 Easily manage your switch game backups
 
-![Image description](https://raw.githubusercontent.com/giwty/nsp-update/master/updates_ui.png)
+![Image description](https://raw.githubusercontent.com/liqen00/nsp-update/master/updates_ui.png)
 
-![Image description](https://raw.githubusercontent.com/giwty/nsp-update/master/dlc_ui.png)
+![Image description](https://raw.githubusercontent.com/liqen00/nsp-update/master/dlc_ui.png)
  
-![Image description](https://raw.githubusercontent.com/giwty/nsp-update/master/cmd.png)
+![Image description](https://raw.githubusercontent.com/liqen00/nsp-update/master/cmd.png)
 
 #### Features:
 - Cross platform, works on Windows / Mac / Linux
@@ -97,7 +97,7 @@ Please set debug mode to 'true', and attach the slm.log to allow for quicker res
 
 ## Building
 - Install and setup Go
-- Clone the repo: `git clone https://github.com/giwty/switch-library-manager.git`
+- Clone the repo: `git clone https://github.com/liqen00/switch-library-manager.git`
 - Get the bundler `go get -u github.com/asticode/go-astilectron-bundler/...`
 - Install bundler `go install github.com/asticode/go-astilectron-bundler/astilectron-bundler`
 - Copy bundler binary to the source folder `cd switch-library-manager` and then `mv $HOME/go/bin/astilectron-bundler .`

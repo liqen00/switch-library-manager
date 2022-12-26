@@ -3,9 +3,9 @@ package db
 import (
 	"errors"
 	"fmt"
-	"github.com/giwty/switch-library-manager/fileio"
-	"github.com/giwty/switch-library-manager/settings"
-	"github.com/giwty/switch-library-manager/switchfs"
+	"github.com/liqen00/switch-library-manager/fileio"
+	"github.com/liqen00/switch-library-manager/settings"
+	"github.com/liqen00/switch-library-manager/switchfs"
 	"go.uber.org/zap"
 	"os"
 	"path/filepath"
